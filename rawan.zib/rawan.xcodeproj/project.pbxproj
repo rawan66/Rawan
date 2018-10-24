@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB92BADE217F78810006636A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92BADD217F78810006636A /* AppDelegate.swift */; };
+		CB92BAE0217F78810006636A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92BADF217F78810006636A /* ViewController.swift */; };
+		CB92BAE3217F78810006636A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB92BAE1217F78810006636A /* Main.storyboard */; };
+		CB92BAE5217F78820006636A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB92BAE4217F78820006636A /* Assets.xcassets */; };
+		CB92BAE8217F78820006636A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB92BAE6217F78820006636A /* LaunchScreen.storyboard */; };
+		CB92BAF3217F78820006636A /* rawanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92BAF2217F78820006636A /* rawanTests.swift */; };
+		CB92BAFE217F78830006636A /* rawanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB92BAFD217F78830006636A /* rawanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB92BAEF217F78820006636A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB92BAD2217F78810006636A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB92BAD9217F78810006636A;
+			remoteInfo = rawan;
+		};
+		CB92BAFA217F78820006636A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB92BAD2217F78810006636A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB92BAD9217F78810006636A;
+			remoteInfo = rawan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB92BADA217F78810006636A /* rawan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rawan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB92BADD217F78810006636A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB92BADF217F78810006636A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB92BAE2217F78810006636A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB92BAE4217F78820006636A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB92BAE7217F78820006636A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB92BAE9217F78820006636A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB92BAEE217F78820006636A /* rawanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rawanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB92BAF2217F78820006636A /* rawanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rawanTests.swift; sourceTree = "<group>"; };
+		CB92BAF4217F78820006636A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB92BAF9217F78820006636A /* rawanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rawanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB92BAFD217F78830006636A /* rawanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rawanUITests.swift; sourceTree = "<group>"; };
+		CB92BAFF217F78830006636A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB92BAD7217F78810006636A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92BAEB217F78820006636A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92BAF6217F78820006636A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB92BAD1217F78810006636A = {
+			isa = PBXGroup;
+			children = (
+				CB92BADC217F78810006636A /* rawan */,
+				CB92BAF1217F78820006636A /* rawanTests */,
+				CB92BAFC217F78830006636A /* rawanUITests */,
+				CB92BADB217F78810006636A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB92BADB217F78810006636A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB92BADA217F78810006636A /* rawan.app */,
+				CB92BAEE217F78820006636A /* rawanTests.xctest */,
+				CB92BAF9217F78820006636A /* rawanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB92BADC217F78810006636A /* rawan */ = {
+			isa = PBXGroup;
+			children = (
+				CB92BADD217F78810006636A /* AppDelegate.swift */,
+				CB92BADF217F78810006636A /* ViewController.swift */,
+				CB92BAE1217F78810006636A /* Main.storyboard */,
+				CB92BAE4217F78820006636A /* Assets.xcassets */,
+				CB92BAE6217F78820006636A /* LaunchScreen.storyboard */,
+				CB92BAE9217F78820006636A /* Info.plist */,
+			);
+			path = rawan;
+			sourceTree = "<group>";
+		};
+		CB92BAF1217F78820006636A /* rawanTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB92BAF2217F78820006636A /* rawanTests.swift */,
+				CB92BAF4217F78820006636A /* Info.plist */,
+			);
+			path = rawanTests;
+			sourceTree = "<group>";
+		};
+		CB92BAFC217F78830006636A /* rawanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB92BAFD217F78830006636A /* rawanUITests.swift */,
+				CB92BAFF217F78830006636A /* Info.plist */,
+			);
+			path = rawanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB92BAD9217F78810006636A /* rawan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB92BB02217F78830006636A /* Build configuration list for PBXNativeTarget "rawan" */;
+			buildPhases = (
+				CB92BAD6217F78810006636A /* Sources */,
+				CB92BAD7217F78810006636A /* Frameworks */,
+				CB92BAD8217F78810006636A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rawan;
+			productName = rawan;
+			productReference = CB92BADA217F78810006636A /* rawan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB92BAED217F78820006636A /* rawanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB92BB05217F78830006636A /* Build configuration list for PBXNativeTarget "rawanTests" */;
+			buildPhases = (
+				CB92BAEA217F78820006636A /* Sources */,
+				CB92BAEB217F78820006636A /* Frameworks */,
+				CB92BAEC217F78820006636A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB92BAF0217F78820006636A /* PBXTargetDependency */,
+			);
+			name = rawanTests;
+			productName = rawanTests;
+			productReference = CB92BAEE217F78820006636A /* rawanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB92BAF8217F78820006636A /* rawanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB92BB08217F78830006636A /* Build configuration list for PBXNativeTarget "rawanUITests" */;
+			buildPhases = (
+				CB92BAF5217F78820006636A /* Sources */,
+				CB92BAF6217F78820006636A /* Frameworks */,
+				CB92BAF7217F78820006636A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB92BAFB217F78820006636A /* PBXTargetDependency */,
+			);
+			name = rawanUITests;
+			productName = rawanUITests;
+			productReference = CB92BAF9217F78820006636A /* rawanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB92BAD2217F78810006636A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Rawan Fahad";
+				TargetAttributes = {
+					CB92BAD9217F78810006636A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CB92BAED217F78820006636A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CB92BAD9217F78810006636A;
+					};
+					CB92BAF8217F78820006636A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CB92BAD9217F78810006636A;
+					};
+				};
+			};
+			buildConfigurationList = CB92BAD5217F78810006636A /* Build configuration list for PBXProject "rawan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB92BAD1217F78810006636A;
+			productRefGroup = CB92BADB217F78810006636A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB92BAD9217F78810006636A /* rawan */,
+				CB92BAED217F78820006636A /* rawanTests */,
+				CB92BAF8217F78820006636A /* rawanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB92BAD8217F78810006636A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92BAE8217F78820006636A /* LaunchScreen.storyboard in Resources */,
+				CB92BAE5217F78820006636A /* Assets.xcassets in Resources */,
+				CB92BAE3217F78810006636A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92BAEC217F78820006636A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92BAF7217F78820006636A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB92BAD6217F78810006636A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92BAE0217F78810006636A /* ViewController.swift in Sources */,
+				CB92BADE217F78810006636A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92BAEA217F78820006636A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92BAF3217F78820006636A /* rawanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB92BAF5217F78820006636A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB92BAFE217F78830006636A /* rawanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB92BAF0217F78820006636A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB92BAD9217F78810006636A /* rawan */;
+			targetProxy = CB92BAEF217F78820006636A /* PBXContainerItemProxy */;
+		};
+		CB92BAFB217F78820006636A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB92BAD9217F78810006636A /* rawan */;
+			targetProxy = CB92BAFA217F78820006636A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB92BAE1217F78810006636A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB92BAE2217F78810006636A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB92BAE6217F78820006636A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB92BAE7217F78820006636A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB92BB00217F78830006636A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB92BB01217F78830006636A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB92BB03217F78830006636A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rawan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = STC.rawan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB92BB04217F78830006636A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rawan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = STC.rawan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB92BB06217F78830006636A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rawanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = STC.rawanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rawan.app/rawan";
+			};
+			name = Debug;
+		};
+		CB92BB07217F78830006636A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rawanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = STC.rawanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rawan.app/rawan";
+			};
+			name = Release;
+		};
+		CB92BB09217F78830006636A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rawanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = STC.rawanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rawan;
+			};
+			name = Debug;
+		};
+		CB92BB0A217F78830006636A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = rawanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = STC.rawanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rawan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB92BAD5217F78810006636A /* Build configuration list for PBXProject "rawan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92BB00217F78830006636A /* Debug */,
+				CB92BB01217F78830006636A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB92BB02217F78830006636A /* Build configuration list for PBXNativeTarget "rawan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92BB03217F78830006636A /* Debug */,
+				CB92BB04217F78830006636A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB92BB05217F78830006636A /* Build configuration list for PBXNativeTarget "rawanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92BB06217F78830006636A /* Debug */,
+				CB92BB07217F78830006636A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB92BB08217F78830006636A /* Build configuration list for PBXNativeTarget "rawanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB92BB09217F78830006636A /* Debug */,
+				CB92BB0A217F78830006636A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB92BAD2217F78810006636A /* Project object */;
+}
